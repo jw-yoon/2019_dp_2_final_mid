@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>꿈; 일기</title>
+</head>
+<style type="text/css">
+	@font-face { font-family: 'RIDIBatang'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+	#monitor{width: 80px; height: 30px; background: white; color: black; position: fixed; top: 0; right: 0;}
+
+
+	html{font-family: RIDIBatang; color: white; margin: 0; padding: 0; background: black;}
+
+
+	footer{margin-top: 750px;}
+	.ifour{
+		overflow: hidden;
+		overflow-y: scroll; 
+		overflow-x: hidden;
+		height: 600px;
+
+	}
+
+	.ifive{
+		overflow: hidden;
+		overflow-y: scroll; 
+		overflow-x: hidden;
+		height: 600px;
+	}
+
+	.isix{
+		overflow: hidden;
+		overflow-y: scroll; 
+		overflow-x: hidden;
+		height: 600px;
+	}
+
+	body{
+		width: 15000px;
+		height: 1000px;
+		margin: 0 auto;
+		overflow: hidden;
+		overflow-x: scroll;
+		overflow-y: scroll;
+		white-space: nowrap;
+	}
+
+	
+	
+	div{padding: 0}
+
+	h2{font-size: 60pt;}
+	h3{font-size: 25px;}
+	p{font-size: 19px; line-height: 28px;}
+
+	.wrap,.wrap1,.wrap2,.wrap3{
+		width: 1400px;
+		height: 800px;
+		float: left;
+		padding-left:160px;
+		padding-top: 0;
+		
+
+	}
+
+
+	.word{padding-bottom: 40px;}
+	.pclass{width: 800px;}
+
+	.title{font-size: 200px;}
+
+
+	.meca{width: 900px; height: 300px; margin-top: 200px;}
+	.powert{ margin-top: 200px;}
+	.think{width: 1000px; padding-bottom: 40px;}
+	.think2{width: 1000px;}
+
+	
+	img{width: 300px; height: 610px;" position: absolute;}
+	
+
+
+
+
+
+
+</style>
+
+<body>
+	<audio controls loop id="pe">
+  		<source src="Peace.mp3" type="audio/mpeg" autostart="true" style="opacity: 0">
+  	</audio>
+	<div id="monitor"></div>
+
+	<section class="title" id="titlee">
+		<div class="wrap " >
+			<h1>꿈;일기</h1>
+		</div>
+	</section>
+
+<!--사전적 의미-->
+	<section class="one">
+		<div class="wrap" >
+			<div class="subtitle" id="subtt">
+				<h2>꿈;</h2>
+			</div>
+			<div class="word"id="wordd">
+				<h3>명사</h3>
+				<p class="pclass">1. 잠자는 동안에 깨어 있을 때와 마찬가지로 여러 가지 사물을 보고 듣는 정신 현상.<br>2. 실현하고 싶은 희망이나 이상.<br>3. 실현될 가능성이 아주 적거나 전혀 없는 헛된 기대나 생각.</p>
+			</div>
+			<div class="fact" id="factt">
+				<h3>사전</h3>
+				<p class="pclass" >우리는 흔히 꿈을 수면 중에 일어나는 하나의 시각적 심상이라고 정의한다.<br>때로는 청각, 후각 등의 감각이 관여를 할 때도 있다.<br> 우리가 꿈이 '기억이 난다'라고 말하는 꿈은 수면 중 꿈꾼 체험이 깨어난 후에도 회상되는 회상몽(回想夢)을 말한다.</p>
+			</div>
+		</div>
+	</section>
+
+<!--꿈의 메커니즘-->
+	<section class="two">
+		<div class="wrap" id="mecaa" >
+			<div class="meca" >
+				<p class="pclass">사람은 렘수면 시기와 비렘수면 시기를 반복하면서 잠을 잔다.<br>그 과정에서 꿈은 서파수면에 막 접어들었을 때와 렘수면 도중 꿈을 꾸게 되고 우리가 꾸는 대부분의 꿈은 렘수면 도중 일어나는 일이다. <br>이는 렘수면 도중 해마에서 이전 기억들의 흔적을 연결하고 되집어 가면서 기억들을 떠올리게 하기 때문인데, 이런 장면들의 연결이 바로 꿈이 된다.</p>
+				<canvas id="tu" resize></canvas>
+			</div>
+		</div>
+	</section>
+
+<!--추측과 날조-->
+	<section class="three">
+		<div class="wrap">
+			<div class="powert"></div>
+			<div class="think" id="thinkk">
+				<p class="pclass">하지만, 과연 꿈은 나의 뇌 속에서만 이루어지는 것이 맞을까? <br>어떠한 이유로 잠을 자면서 뇌가 사용 할 수 있는 모든 용량을 다 사용하여 <br>우리의 뇌가 어딘가로 연결되어 다른 차원, 다른 세계의 어떤 인물과 연결되어 잠깐 그 세계를 옅보는 것은 아닐까?</p>
+			</div>
+			<div class="think2" id="thinkk2">
+				<p class="pclass">꿈이란 것은 분명 다른 공간의 이야기를, 다른 차원의 상황을 잠깐 볼 수 있게 해 주는 매개체일 것이다. <br>지금 나는 내가 꿈 속에서 경험했었던, 몇 가지의 이야기를 들려주려고 한다.</p>
+			</div>
+		</div>
+		</div>
+	</section>
+
+	<!--tale 1-->
+	<section class="four" style="float: left;">
+		<div class="wrap1" id="ffour" >
+			<audio src="Last_Train_to_Mars.mp3" controls id="Train"></audio>
+			<div class="tale1">
+				<h3 style="font-size: 30px;">1<br>사막위의 기차역</h3>
+				<iframe class="ifour" src="https://jw-yoon.github.io/final_railroad/" width="700" height="600" style="background: white;"></iframe>
+			</div>
+			<div class="aa"><img src="1.png">
+			</div>
+		</div>
+
+	</section>
+
+	<!--tale 2-->
+	<section class="five">
+		<div class="wrap2" id="ffive" style="background: pink">
+			<div class="tale1">
+				<h3 style="font-size: 30px;">2<br>유품, 문, 그 안의 무언가</h3>
+			<iframe id="ifive" src="https://jw-yoon.github.io/final_door/" width="700" height="600" style="background: white;"></iframe>
+		
+			</div>
+			<div class="bb"><img src="1.jpeg">
+			</div>
+		</div>
+	</section>
+
+	<!--tale 3-->
+	<section class="six">
+		<div class="wrap3" id="ssix" style="background: green">
+			<div class="tale3" id="talee3">
+				<h3 style="font-size: 30px;">3<br>기억에 있는 동산</h3>
+				<iframe id="isix" src="https://jw-yoon.github.io/final_memoryhill/" width="700" height="600" style="background: white;"></iframe>
+				
+			</div>
+			<div class="cc"><img src ="1.jpeg">
+			</div>
+		</div>
+	</section>
+
+	<div id="monitor" style="color: black;"></div>
+
+	
+
+	<script type="text/javascript">
+		window.onscroll = function(){
+ 			var t = document.documentElement.scrollLeft + document.body.scrollLeft;
+ 			monitor.innerHTML = t + "px";
+		}
+	</script>
+
+
+
+</body>
+<footer>
+	2019.12.11 윤정운 all rights reserves.
+</footer>
+</html>
